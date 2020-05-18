@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100;
+    text-align: center;
+}
+
+nav form .btn-default {
+    background: blue;
+    color: black;
+    font-weight: bold;
+    border-color: white;
+}
+
+.jumbotron {
+    height: 100%;
+    background-image: url(https://cdn.macrumors.com/article-new/2019/03/Screenshot.jpg?retina);
+    background-size: cover;
+}
+
+.images {
+    padding-top: 50px;
+}
+
+.images img {
+    width: 300px;
+    height: 300px;
+}
+
+.main p {
+    color: white;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.main h1 {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.main small {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.main .btn {
+    background: blue;
+    color: black;
+    font-weight: bold;
+    border-color: white;
+}
+
+.types {
+    padding-top: 20px;
+}
+
+.types p {
+    color: white;
+    font-size: 30px;
+}
+
+.gallery img {
+    text-align: center;
+    height: 250px;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+.table {
+    background: blue;
+    color: black;
+    border: 3px solid white;
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+}
+
+.table td {
+    padding: 5px;
+}
+
+.table th {
+    padding: 5px;
+    text-align: center;
+}
+
+.information {
+    width: 35%;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.group {
+    padding-left: 100px;
+}
+
+.img-modal-group img {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.media-heading  {
+    color: blue;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 50px;
+}
+
+.media-body p {
+    color: white;
+    padding-left: 30px;
+}
+    
+label {
+    color: white;
+}
+
+.form-control {
+    border: 3px solid blue;
+}
+
+.form-control:hover {
+    background: blue;
+    transition: 2s;
+}
+
+.information .btn {
+    background: blue;
+    color: black;
+    font-weight: bold;
+    border-color: white;
+}
+
+[class*="col-"] {
+    min-height: 1px; 
+    padding: 0;
+    margin: 0;
+}
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+.col-offset-1 { margin-left: 8.33%; }
+.col-offset-2 { margin-left: 16.66%; }
+.col-offset-3 { margin-left: 25%; }
+.col-offset-4 { margin-left: 33.33%; }
+.col-offset-5 { margin-left: 41.66%; }
+.col-offset-6 { margin-left: 50%; }
+.col-offset-7 { margin-left: 58.33%; } 
+.col-offset-8 { margin-left: 66.66%; }
+.col-offset-9 { margin-left: 75%; }
+.col-offset-10 { margin-left: 83.33%; }
+.col-offset-11 { margin-left: 91.66%; }
+.col-offset-12 { margin-left: 100%; }
